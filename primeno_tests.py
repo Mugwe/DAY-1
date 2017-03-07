@@ -15,6 +15,11 @@ class testprimenumbers(unittest.Testcase):
         self.assertNotEqual(7,2)
 
 
+    def test_if_number_is_zero(self)
+		result = primenumbers(0)
+		self.assertTrue(result, "invalid number"
+
+
 
 if __name__ == '__main__':
     unittest()
