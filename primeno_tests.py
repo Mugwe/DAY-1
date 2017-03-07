@@ -1,6 +1,6 @@
 import unittest
 
-Import day1.prime_no_solution from primenumbers
+import day1.prime_no_solution from primenumbers
 
 class testprimenumbers(unittest.Testcase):
     
@@ -8,18 +8,19 @@ class testprimenumbers(unittest.Testcase):
         answer = primenumbers("tracy")
         self.assertEqual(answer, "Enter an integer")
 
-    def test_if_number_is_divisible_by_2(self)
+    def test_if_number_is_divisible_by_2(self):
 		self.assertTrue(4%2 == 0,0)
 
-    def test_if_number_is_equal_to_2(self)
+    def test_if_number_is_equal_to_2(self):
         self.assertNotEqual(7,2)
 
 
-    def test_if_number_is_zero(self)
+    def test_if_number_is_zero(self):
 		result = primenumbers(0)
-		self.assertTrue(result, "invalid number"
-
-
+		self.assertTrue(result, "invalid number")
+    
+    def test_if_number_excedeed_range(self):
+        self.assertTrue(101, 100)
 
 if __name__ == '__main__':
     unittest()
