@@ -1,15 +1,17 @@
 import unittest
 
-from day1 import prime_no_solution
+Import day1.prime_no_solution from primenumbers
 
 class testprimenumbers(unittest.Testcase):
-	"""docstring for test_prime_numbers"""
-	def test_invalid(self):
-		self.assertInvalid("tracy"(Should only contain numeric values))
+    
+    def test_if_number_is_integer(self):
+        answer = primenumbers("tracy")
+        self.assertEqual(answer, "Enter an integer")
+
+    def test_if_number_is_divisible_by_2(self)
+		self.assertTrue(4%2 == 0,0)
 
 
 
 if __name__ == '__main__':
-	unittest()
-		
-		
+    unittest()
