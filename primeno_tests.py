@@ -11,6 +11,9 @@ class testprimenumbers(unittest.Testcase):
     def test_if_number_is_divisible_by_2(self)
 		self.assertTrue(4%2 == 0,0)
 
+    def test_if_number_is_equal_to_2(self)
+        self.assertNotEqual(7,2)
+
 
 
 if __name__ == '__main__':
